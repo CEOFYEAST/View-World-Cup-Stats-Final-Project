@@ -1,0 +1,120 @@
+<!-- HOLEWINSKI -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Home Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Stats.css">
+  <link rel="stylesheet" href="webfontkit-20221129-134924/stylesheet.css" type="text/css" charset="utf-8"/>
+</head>
+  
+<body>
+  
+  <div class="navigation">
+    <header class="flex middle center">
+          <h1>
+            <a href="index.html">N.S.D.</a>
+          </h1>
+    </header>
+    <nav>
+      <div class="flex middle center">
+        <div class="x2"></div>
+        <h3 class="x1 flex middle center"><a href="Roster.html">Roster</a></h3>
+        <h3 class="x1 flex middle center"><a href="Games.html">Games</a></h3>
+        <h3 class="x1 flex middle center"><a href="Leaders.html">Leaders</a>
+</h3>
+        <div class="x2"></div>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="container break-tablet">
+    <div class="outer-form-container">
+      <div class="form-container">
+        <form class="flex center" onsubmit="return fetchPlayer();">
+          <input class="name-input" type="text" id="name-input" placeholder="Player Name...">
+          <input class="name-submit" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="input-explanation">
+      This page displays the current World Cup stats of a given player. Enter a name above and press submit. 
+    </div>
+
+    <main>
+      <div>
+        <div id="stats-container" class="stats-container hidden">
+          <div class="flex player-information">
+            <div class="x1">
+              <img class="team-image" id="player-image" src="https://via.placeholder.com/150" alt="Player Image">
+            </div>
+            <div class="x2">
+              <div class="flex center header-div">
+                <h4>Player Information</h4>
+              </div>
+              <div class="flex stat">
+                <div class="x1 prompt">Name:</div>
+                <div id="name" class="x2 response"></div>
+              </div>
+              <div class="flex stat">
+                <div class="x1 prompt">Age:</div>
+                <div id="age" class="x2 response"></div>
+              </div>
+              <div class="flex stat">
+                <div class="x1 prompt">Birthplace:</div>
+                <div id="birthplace" class="x2 response"></div>
+              </div>
+              <div class="flex stat">
+                <div class="x1 prompt">Height:</div>
+                <div id="height" class="x2 response"></div>
+              </div>
+              <div class="flex stat">
+                <div class="x1 prompt">Weight:</div>
+                <div id="weight" class="x2 response"></div>
+              </div>
+            </div>
+          </div>
+          <div class="player-statistics">
+            <div class="flex center header-div">
+              <h4>Player Statistics</h4>
+            </div>
+            <div class="flex">
+              <div class="x1">
+                <div class="flex stat">
+                  <div class="x1 prompt">Team:</div>
+                  <div id="team" class="x2 response"></div>
+                </div>
+                <div class="flex middle center">
+                  <img class="team-image" id="team-image" src="https://via.placeholder.com/150" alt="Team Image">
+                </div>
+              </div>
+              <div class="x2">
+                <div class="flex stat">
+                  <div class="x1 prompt">Minutes:</div>
+                  <div id="minutes" class="x2 response"></div>
+                </div>
+                <div class="flex stat">
+                  <div class="x1 prompt">Position:</div>
+                  <div id="position" class="x2 response"></div>
+                </div>
+                <div class="flex stat">
+                  <div class="x1 prompt">Rating:</div>
+                  <div id="rating" class="x2 response"></div>
+                </div>
+                <div class="flex stat">
+                  <div class="x1 prompt">Goals:</div>
+                  <div id="goals" class="x2 response"></div>
+                </div>
+                <div class="flex stat">
+                  <div class="x1 prompt">Passes:</div>
+                  <div id="passes" class="x2 response"></div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="Stats.js"></script>
+  </div>

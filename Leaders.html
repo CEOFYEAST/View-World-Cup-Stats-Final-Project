@@ -1,0 +1,50 @@
+<!--Cavan Reavey-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="webfontkit-20221129-134924/stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="Leaders.css">
+</head>
+
+<body>
+  <div class="navigation">
+    <header class="flex middle center">
+      <h1>
+        <a href="index.html">N.S.D.</a>
+      </h1>
+    </header>
+    <nav>
+      <div class="flex middle center">
+        <div class="x2"></div>
+        <h3 class="x1 flex middle center"><a href="Roster.html">Roster</a></h3>
+        <h3 class="x1 flex middle center"><a href="Stats.html">Stats</a></h3>
+        <h3 class="x1 flex middle center"><a href="Games.html">Games</a></h3>
+        <div class="x2"></div>
+      </div>
+    </nav>
+  </div>
+  <div class="container break-tablet">
+    
+    <div class="outer-form-container">
+      <div class="form-container">
+        <form class="flex center" onsubmit="return getLeaders();">
+          <input class="name-input" type="text" id="name-input" placeholder="Category Name...">
+          <input class="name-submit" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="input-explanation">
+      This page displays the leaders in a given category. Enter "Top Scorers", "Top Assists", "Top Yellow Cards" or "Top Red Cards" above and press submit. 
+    </div>
+    
+    <main id="main">
+    </main>
+    
+  </div>
+  <script src="Leaders.js"></script>
+</body>
+
+</html>

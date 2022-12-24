@@ -1,0 +1,43 @@
+.navigation {
+  width: 750px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+}
+
+nav {
+  width: 700px;
+  margin: auto;
+}
+
+#flex-apply {
+  width: 100%;
+  height: 100%;
+}
+
+.explanation {
+  width: 600px;
+  margin: auto;
+}
+
+.explanation-text {
+  background: white;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 8px 20px 10px 20px;
+  border-left: solid 5px grey;
+  border-bottom: solid 5px grey;
+  border-right: solid 5px grey;
+  margin: 0;
+}
+
+.soccer-player-image {
+  margin: auto;
+  width: 75px;
+}
+
+.image-div {
+  width: 100%;
+}

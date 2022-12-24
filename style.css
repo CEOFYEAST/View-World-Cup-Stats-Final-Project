@@ -1,0 +1,130 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+body {
+  background-image: url("light-ball.png");
+  background-size: 90px;
+}
+
+/* removes default stylings on hyperlinks */
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* stylings for .navigation */
+header {
+  width: 100%;
+  font-family: "esp_italicregular";
+  color: white;
+  background-color: #2b2c2d;
+  height: 50px;
+  z-index: 0;
+}
+header > h1 {
+  z-index: 3;
+}
+header::before {
+  content: "";
+  height: 50px;
+  width: 275px;
+  background-color: #d00;
+  transform: skew(-25deg, 0);
+  position: absolute;
+  z-index: 2;
+} 
+header::after {
+  content: "";
+  height: 50px;
+  width: 400px;
+  background-color: #b40000;
+  position: absolute;
+  transform: skew(-25deg, 0);
+  z-index: 1;
+}
+nav {
+  background-color: lightgrey;
+  height: 35px;
+}
+nav div {
+  height: 100%;
+}
+nav h3 {
+  font-family: Sans-Serif;
+  color: #2b2c2d;
+}
+nav h3:hover {
+  color: white;
+}
+.navigation {
+  position: sticky;
+  top: 0;
+}
+
+/**
+form css
+*/
+form {
+  border: solid grey 1px;
+}
+.form-container {
+  width: 90%;
+  margin: auto;
+  background-color: #d00;
+}
+.outer-form-container {
+  width: 70%;
+  margin: auto;
+  background-color: #b40000;
+  border: solid grey 1px;
+}
+.name-input {
+  width: 65%;
+  margin-right: 5%;
+}
+.name-submit {
+  width: 20%;
+}
+.input-explanation {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  color: #2b2c2d;
+}
+
+.container {
+  height: 100%;
+  width: 750px;
+  border-left: solid darkgrey 5px;
+  border-right: solid darkgrey 5px;
+  border-bottom: solid darkgrey 5px;
+  background-color: white;
+  margin: auto;
+}
+
+.flex{display:flex;}
+.flex.middle{align-items: center;}
+.flex.center{justify-content: center;}
+.flex.right{justify-content: right;}
+.flex.left{justify-content: left;}
+.hidden{display: none;}
+
+.x1{flex:1;}
+.x2{flex:2;}
+.x3{flex:3;}
+.x4{flex:4;}
+.x5{flex:5;}
+.x6{flex:6;}
+
+/* When browser width is 600px or less */
+@media screen and (max-width: 800px){ /* tablet */
+  .break-tablet {
+    width: 100%;
+  }
+}

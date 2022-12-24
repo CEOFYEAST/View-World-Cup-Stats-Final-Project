@@ -1,0 +1,93 @@
+/*Cavan Reavey*/
+html, body {
+  height: 2300px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding-top: 15px;
+}
+
+main {
+  width: 100%;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: solid lightgrey 5px;
+}
+
+main div {
+  margin: 5px;
+  border: solid black 1px;
+}
+
+main > div {
+  width: 70%;
+  border: solid black 3px;
+  margin: auto;
+}
+
+/**
+goals
+*/
+.color-score h1 {
+  color: #FFD700;
+  margin: 0;
+}
+.color-score .number-container {
+  background-color: #59A608;
+}
+/**
+assists
+*/
+.color-assists h1 {
+  color: #FFD700;
+  margin: 0;
+}
+.color-assists .number-container {
+  background-color: #2776EA;
+}
+/**
+yellow cards
+*/
+.color-yellow-cards h1 {
+  color: #2776EA;
+  margin: 0;
+}
+.color-yellow-cards .number-container {
+  background-color: #FFD700;
+}
+/**
+red cards
+*/
+.color-red-cards h1 {
+  color: #FFD700;
+  margin: 0;
+}
+.color-red-cards .number-container {
+  background-color: #d00;
+}
+
+.response {
+  color: #d00;
+}
+
+.player-image {
+  width: 100%;
+} 
+
+h3 {
+  margin: 0;
+}
+
+.name-container {
+  border: dotted black 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.prompt, .response {
+  padding-left: 5px;
+}

@@ -1,0 +1,41 @@
+html, body {
+  height: 2000px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding-top: 15px;
+}
+
+main {
+  width: 100%;
+  margin-top: 15px;
+  border-top: solid lightgrey 5px;
+}
+
+.row > div div {
+  border: solid black 1px;
+}
+
+main img {
+  width: 171.5px;
+  height: 171.5px;
+}
+
+.response {
+  padding-left: 5px;
+  color: #2776EA;
+}
+.appearences {
+  padding-right: 5px;
+}
+.row {
+  margin-bottom: 15px;
+  background-color: white
+}
+main {
+  background-color: #2776EA;
+}

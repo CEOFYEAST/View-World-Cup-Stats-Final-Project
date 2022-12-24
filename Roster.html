@@ -1,0 +1,143 @@
+<!DOCTYPE html> <!-- DREW -->
+<html lang="en">
+
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="webfontkit-20221129-134924/stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="Roster.css">
+</head>
+
+<body>
+  <div class="navigation">
+    <header class="flex middle center">
+      <h1>
+        <a href="index.html">N.S.D.</a>
+      </h1>
+    </header>
+    <nav>
+      <div class="flex middle center">
+        <div class="x2"></div>
+        <h3 class="x1 flex middle center"><a href="Stats.html">Stats</a></h3>
+        <h3 class="x1 flex middle center"><a href="Games.html">Games</a></h3>
+        <h3 class="x1 flex middle center"><a href="Leaders.html">Leaders</a></h3>
+        <div class="x2"></div>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="container break-tablet">
+    
+    <div class="outer-form-container">
+      <div class="form-container">
+        <form class="flex center" onsubmit="return getTeamRoster();">
+          <input class="name-input" type="text" id="name-input" placeholder="Team Name...">
+          <input class="name-submit" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="input-explanation">
+      This page displays the roster of a given team. Enter a name above and press submit. 
+    </div>
+    
+    <main id="main">
+      <!--
+      <div class="flex row">
+        <div class="x1 space"></div>
+        <div class="x3 team-member">
+          <div class="flex team-member-info">
+            <div class="x1 prompt">Name:</div>
+            <div class="x2 response">Response</div>
+          </div>
+          <div class="flex team-member-info">
+            <div class="x1 prompt appearences">Appearences:</div>
+            <div class="x2 response">1</div>
+          </div>
+          <div class="team-member-image-container">
+            <img class="team-member-image" src="https://via.placeholder.com/20" alt="">
+          </div>
+        </div>
+        <div class="x1 space"></div>
+        <div class="x3 team-member">
+          <div class="flex team-member-info">
+            <div class="x1 prompt">Name:</div>
+            <div class="x2 response">Response</div>
+          </div>
+          <div class="flex team-member-info">
+            <div class="x1 prompt appearences">Appearences:</div>
+            <div class="x2 response">1</div>
+          </div>
+          <div class="team-member-image-container">
+            <img class="team-member-image" src="https://via.placeholder.com/20" alt="">
+          </div>
+        </div>
+        <div class="x1 space"></div>
+        <div class="x3 team-member">
+          <div class="flex team-member-info">
+            <div class="x1 prompt">Name:</div>
+            <div class="x2 response">Response</div>
+          </div>
+          <div class="flex team-member-info">
+            <div class="x1 prompt appearences">Appearences:</div>
+            <div class="x2 response">1</div>
+          </div>
+          <div class="team-member-image-container">
+            <img class="team-member-image" src="https://via.placeholder.com/20" alt="">
+          </div>
+        </div>
+        <div class="x1 space"></div>
+      </div>
+      <div class="flex row">
+        <div class="x1 space"></div>
+        <div class="x3 team-member">
+          <div class="flex team-member-info">
+            <div class="x1 prompt">Name:</div>
+            <div class="x2 response">Response</div>
+          </div>
+          <div class="flex team-member-info">
+            <div class="x1 prompt appearences">Appearences:</div>
+            <div class="x2 response">1</div>
+          </div>
+          <div class="team-member-image-container">
+            <img class="team-member-image" src="https://via.placeholder.com/20" alt="">
+          </div>
+        </div>
+        <div class="x1 space"></div>
+        <div class="x3 team-member">
+          <div class="flex team-member-info">
+            <div class="x1 prompt">Name:</div>
+            <div class="x2 response">Response</div>
+          </div>
+          <div class="flex team-member-info">
+            <div class="x1 prompt appearences">Appearences:</div>
+            <div class="x2 response">1</div>
+          </div>
+          <div class="team-member-image-container">
+            <img class="team-member-image" src="https://via.placeholder.com/20" alt="">
+          </div>
+        </div>
+        <div class="x1 space"></div>
+        <div class="x3 team-member">
+          <div class="flex team-member-info">
+            <div class="x1 prompt">Name:</div>
+            <div class="x2 response">Response</div>
+          </div>
+          <div class="flex team-member-info">
+            <div class="x1 prompt appearences">Appearences:</div>
+            <div class="x2 response">1</div>
+          </div>
+          <div class="team-member-image-container">
+            <img class="team-member-image" src="https://via.placeholder.com/20" alt="">
+          </div>
+        </div>
+        <div class="x1 space"></div>
+      </div>
+      -->
+    </main>
+    
+  </div>
+  
+  <script src="Roster.js"></script>
+</body>
+
+</html>

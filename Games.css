@@ -1,0 +1,104 @@
+/**
+Benton
+*/
+
+html, body {
+  height: 2300px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding-top: 15px;
+}
+
+main {
+  width: 100%;
+  margin-top: 15px;
+  border-top: solid lightgrey 5px;
+  background-color: #2776EA;
+}
+
+main div {
+  margin: 5px;
+  padding: 5px;
+}
+
+.team-name, .team-score {
+  margin: 0;
+}
+
+form h4 {
+  margin: 0;
+  color: white;
+}
+
+#date-input-1 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#date-input-2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#season-input {
+  margin-left: 5px;
+}
+
+.date {
+  padding: 0px 0px 15px 0px;
+  margin: 0;
+  border-bottom: dashed grey 3px;
+}
+
+.teams-container {
+  border-left: solid grey 4px;
+  border-right: solid grey 4px;
+  width: 550px;
+  margin: auto;
+  padding: 0px 20px 0px 20px;
+}
+
+.game-container {
+  margin: 0px 0px 15px 0px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.team-logo {
+  width: 50px;
+}
+
+.team-one-container.winner {
+  border-right: 10px solid #d4af37;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.team-two-container.winner {
+  border-left: 10px solid #d4af37;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.team-one-container.tie {
+  border-right: 10px solid green;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.team-two-container.tie {
+  border-left: 10px solid green;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.team-one-container.loser {
+  border-right: 10px solid lightgrey;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.team-two-container.loser {
+  border-left: 10px solid lightgrey;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+

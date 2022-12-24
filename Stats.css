@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+}
+
+.stat, .prompt, .response {
+  border: solid black 1px;
+}
+
+.container {
+  padding-top: 15px;
+}
+
+main {
+  margin-top: 15px;
+  border-top: solid lightgrey 5px;
+}
+
+main > div {
+  width: 100%;
+  background-color: #2776EA;
+  border-bottom: solid lightgrey 5px;
+  margin: auto;
+}
+
+/**
+form css
+form {
+  border: solid grey 1px;
+}
+.form-container {
+  width: 90%;
+  margin: auto;
+  background-color: #d00;
+}
+.outer-form-container {
+  width: 70%;
+  margin: auto;
+  background-color: #b40000;
+  border: solid grey 1px;
+}
+.name-input {
+  width: 65%;
+  margin-right: 5%;
+}
+.name-submit {
+  width: 20%;
+}
+.input-explanation {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  color: #2b2c2d;
+}
+*/
+
+/**
+stats css
+*/
+.stats-container {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+}
+.stats-container h4 {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:  #d00;
+}
+.stat {
+  padding: 3px 0px 3px 0px;
+}
+.prompt {
+  padding-left: 5px; 
+  padding-right: 5px;
+}
+.response {
+  padding-left: 5px; 
+  color: #2776EA;
+}
+#player-image {
+  width: 100%;
+}
+#team-image {
+  width: 175px;
+  height: 109px;
+}
+.header-div {
+  border: solid black 2px;
+}
